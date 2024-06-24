@@ -1,6 +1,15 @@
+
+@media screen and (max-width: 1025px) {
+    .section__services h1 {
+        font-size: 40px;
+    }
+}
 @media screen and (max-width: 925px) {
     .menu {
         display: none;
+    }
+    .section__services h1 {
+        font-size: 34px;
     }
     .img__services2{
         display: none;
@@ -15,7 +24,36 @@
         display: block !important;
     }
 }
+@media screen and (max-width: 772px) {
+    .section__services__head{
+        text-align: center;
+        display: block;
+    }
+    .section__services h1 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .img__services{
+        width: 350px;
+        margin: 0px;
+        margin: auto;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 572px) {
+    .section__services{
+        width: 100%;
+    }
+    .section__services h1 {
+        font-size: 24px;
+    }
+    .img__services{
+        width: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+        margin: auto;
+    }
     .section__partners{
         display: block;
     }
@@ -102,5 +140,11 @@
     .main{}
     .section__partners h2{
         width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .img__services{
+        width: 200px;
+        height: 170px;
     }
 }
