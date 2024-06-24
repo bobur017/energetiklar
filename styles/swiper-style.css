@@ -1,0 +1,33 @@
+.swiper {
+    /* width: 80%; */
+    height: 300px;
+  }
+.swiper-button-prev1 {
+    left: 10px;
+}
+.swiper-button-next1 img, .swiper-button-prev1 img {
+    width:50px;
+}
+.swiper-button-next1 {
+    right: 10px;
+}
+.custom-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+.swiper-slide img {
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: auto;
+    height: 80%;
+}
+.swiper-slide h3 {
+    text-align: center;
+    font-size: 14px;
+    /* margin-top: 20px; */
+}
