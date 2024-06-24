@@ -95,7 +95,7 @@ a {
 }
 .services__vector2{
     position: absolute;
-    bottom: 50px;
+    top: 600px;
     left: 30px;
     width: 30px;
     z-index: 1;
